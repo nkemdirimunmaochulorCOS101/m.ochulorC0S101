@@ -14,6 +14,7 @@ fn main()
     io::stdin().read_line(&mut input2).expect("Not a valid string");
     let age:f32 = input2.trim().parse().expect("Not a valid number");
 
+    
     if e == "experienced" && age >= 40.0
     {
         println!("The incentive of the employee is 1_560_000.0");
@@ -29,6 +30,10 @@ fn main()
     else if e == "inexperienced"
     {
         println!("The incentive is 100_000.0");
+    }
+    if  e != "inexperienced".to_owned() + "experienced" 
+    {
+        println!("Sorry this is not a basis of qualification");
     }
 }
 
