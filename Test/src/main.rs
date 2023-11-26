@@ -68,12 +68,6 @@ fn main ()
     let m = "Atabrinkang";
     let y = "Okorobiolom";
     let b = "Emeremen";
-
-    let k = "Alzhelmer";                
-    let r = "Arrhythmia";              
-    let u = "Chronic Kidney Disease";   
-    let d = "Diabetes";                 
-    let h = "Arthritis";              
     
     let dis1:f32 = 1_200_000.0 * 0.20;
     if medical_diagonosis == "k" && a > 50.0 && f == 4.0 && village_of_residence == "v"

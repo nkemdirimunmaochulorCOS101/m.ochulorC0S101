@@ -7,7 +7,7 @@ fn main() {
     let input1:i32 = input1.trim().parse().expect("Not a valid number");
     
     for lhs in 1..=input1 {
-        for rhs in 1..=10{
+        for rhs in 1..={
             let result = lhs * rhs;
             println!("{} x {} = {}", lhs, rhs, result);
         }
