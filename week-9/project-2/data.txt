@@ -1,0 +1,31 @@
+
+Details of each stundets name
+Oluchi Mordi
+Adams Aliyu
+Shania Bolade
+Adekunle Gold
+Blanca Edemoh
+
+
+Details of each students matriculation number respectively
+ACC10211111
+ECO10110101
+CSC10328828
+EE11020202
+MEE10202001
+
+
+Details of each stundents departments respectively
+Accounting
+Economics
+Computer
+Electrical
+Mechanical
+
+
+Details of each stundets level respectively
+300
+100
+200
+200
+100

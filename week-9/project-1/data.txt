@@ -1,0 +1,24 @@
+
+Menu for lagers drinks available
+33 Export
+Desperados
+Goldberg
+Gulder
+Heineken
+Star
+
+
+Menu for stout drinks available
+Legend
+Turbo King
+Williams
+
+
+
+Menu for non alcholic drinks available
+Maltina
+Amstel Malta
+Malta Gold
+Fayrouz
+
+
