@@ -7,7 +7,7 @@ fn main() {
     let department = vec!["\nAccounting", "Economics", "Computer", "Electrical", "Mechanical", "", ""];
     let level = vec!["\n300","100","200","200","100"];
 
-    let mut details = std::fs::File::create("data.txt").expect("create failed");
+    let mut details = std::fs::File::create("data.txt ").expect("create failed");
     details.write_all(b"\n");
 
     details.write_all(b"Details of each stundets name");
