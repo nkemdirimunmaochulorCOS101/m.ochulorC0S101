@@ -21,35 +21,6 @@ SET default_tablespace = '';
 SET default_table_access_method = heap;
 
 --
--- Name: department; Type: TABLE; Schema: public; Owner: postgres
---
-
-CREATE TABLE public.department (
-    deptmanagerid integer NOT NULL,
-    dno integer NOT NULL,
-    dname text,
-    dlocation character(15),
-    pno integer NOT NULL
-);
-
-
-ALTER TABLE public.department OWNER TO postgres;
-
---
--- Name: project; Type: TABLE; Schema: public; Owner: postgres
---
-
-CREATE TABLE public.project (
-    pno integer NOT NULL,
-    pname character(3) NOT NULL,
-    pduration text,
-    projectmanageririd integer
-);
-
-
-ALTER TABLE public.project OWNER TO postgres;
-
---
 -- Name: staff; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -64,34 +35,6 @@ CREATE TABLE public.staff (
 
 
 ALTER TABLE public.staff OWNER TO postgres;
-
---
--- Data for Name: department; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY public.department (deptmanagerid, dno, dname, dlocation, pno) FROM stdin;
-108	1	Administration	Ikeja          	44
-101	2	Account	Egbeda         	11
-100	3	Packaging	Ajah           	44
-120	4	Research	V.I            	33
-97	5	Account	Magodo         	22
-122	6	Operations	Mile 2         	44
-107	7	Packaging	Ketu           	55
-\.
-
-
---
--- Data for Name: project; Type: TABLE DATA; Schema: public; Owner: postgres
---
-
-COPY public.project (pno, pname, pduration, projectmanageririd) FROM stdin;
-11	A  	9 months	102
-22	B  	14 months	97
-33	C  	16 months	120
-44	D  	25 months	108
-55	E  	9 months	107
-\.
-
 
 --
 -- Data for Name: staff; Type: TABLE DATA; Schema: public; Owner: postgres
@@ -111,27 +54,11 @@ COPY public.staff (staff_id, staff_name, dno, staff_sal, age, phone) FROM stdin;
 
 
 --
--- Name: department department_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY public.department
-    ADD CONSTRAINT department_pkey PRIMARY KEY (deptmanagerid);
-
-
---
 -- Name: staff employees_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
 --
 
 ALTER TABLE ONLY public.staff
     ADD CONSTRAINT employees_pkey PRIMARY KEY (staff_id);
-
-
---
--- Name: project project_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
---
-
-ALTER TABLE ONLY public.project
-    ADD CONSTRAINT project_pkey PRIMARY KEY (pno);
 
 
 --
