@@ -18,5 +18,5 @@ fn main() {
         dell_laptops:850_000
     };
 
-    println!("the total cost for all the alptops from each brand is {}", cost.total_cost());
+    println!("the total cost for all the laptops from each brand is {}", cost.total_cost());
 }

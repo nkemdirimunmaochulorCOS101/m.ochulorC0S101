@@ -1,0 +1,56 @@
+
+company
+Cadbury Nigeria Plc
+Champion Breweries Plc
+Dangote Sugar Refinery Plc
+Flour Mills Nigeria Plc
+Nestle Nigeria Plc
+Unilever Nigeria Plc
+Honeywell Nigeria Plc
+Nigeria Breweries Plc
+
+
+  company shares
+15_000_000
+25_000_000
+18_000_000
+32_000_000
+8_000_000
+37_000_000
+34_000_000
+30_000_000
+
+
+  company liabilities 
+5_000_000
+8_000_000
+10_000_000
+4_000_000
+1_500_000
+11_000_000
+9_000_000
+12_000_000
+
+
+  Date established
+1965
+1974
+1970
+1960
+1961
+1923
+1906
+1946
+
+
+  Percentage leverage
+33.3%
+32.0%
+55.5%
+12.5%
+18.8
+29.7%
+26.5%
+40.0%
+
+

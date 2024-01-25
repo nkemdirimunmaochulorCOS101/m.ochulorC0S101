@@ -1,6 +1,6 @@
-struct Employee {
     ceo:String,
-    company:String,
+    compastruct Employee {
+ny:String,
     age:u32
 }
 fn main() {

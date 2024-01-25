@@ -63,6 +63,12 @@ fn main ()
     let d:f32 = 800_000.0;
     let s:f32 = 450_000.0;
 
+    let k = "Alzhelmer";
+    let r = "Arrhythmia";
+    let u = "Chronic Kidney Disease";
+    let d = "Diabetes";
+    let h = "Arthritis";
+
     let v = "Akpabom";
     let j = "Ngbauji";
     let m = "Atabrinkang";
